@@ -19,6 +19,8 @@ class SpringJenkinsApplicationTests {
 		
 		logger.info("Test spring project started in second........");
 		
+		
+		logger.info("Test project to check if autobuild is happeneing or not ........");
 		assertEquals(true, true);
 	}
 	
