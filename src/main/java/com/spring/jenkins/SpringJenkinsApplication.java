@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringJenkinsApplication {
 	
 	 public static Logger logger= LoggerFactory.getLogger(SpringJenkinsApplication.class);
+	 
 	
 	@PostConstruct
 	public void init()
@@ -19,6 +20,7 @@ public class SpringJenkinsApplication {
 	}
 
 	public static void main(String[] args) {
+		logger.info("main funtion started");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
