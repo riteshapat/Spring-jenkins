@@ -14,7 +14,7 @@ class SpringJenkinsApplicationTests {
 	public static Logger logger= LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
 	
 	@Test
-	void contextLoads() {
+	public  contextLoads() {
 		logger.info("Test spring project started");
 		
 		logger.info("Test spring project started in second........");
